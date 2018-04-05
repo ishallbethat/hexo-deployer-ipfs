@@ -9,7 +9,7 @@ Using npm
 2. Configuration
 in your _config.yml file, configure a deployer as below.
 >deploy:
-- path: <your folder, by default it's public>
-  host: <your ipfs node hostname, by default localhost>
-  port: <your ipfs port, by default 5001>
-  protocol: <protocol, by default http>
+>- path: <your folder, by default it's public>
+>  host: <your ipfs node hostname, by default localhost>
+>  port: <your ipfs port, by default 5001>
+>  protocol: <protocol, by default http>
