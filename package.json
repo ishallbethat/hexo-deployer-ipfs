@@ -16,8 +16,10 @@
     "url": "https://github.com/IamGabrielWu/hexo-deployer-ipfs/issues"
   },
   "dependencies": {
+    "buffer": "^5.1.0",
     "hexo-fs": "^0.2.2",
-    "ipfs-api": "^19.0.0"
+    "ipfs-api": "^19.0.0",
+    "path": "^0.12.7"
   },
   "homepage": "https://github.com/IamGabrielWu/hexo-deployer-ipfs#readme",
   "directories": {

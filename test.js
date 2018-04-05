@@ -5,7 +5,7 @@ var data={
     host: 'localhost',
     protocol: 'http'
 };
-deployer(data).then(function(err,result){
+deployer.addDir(data,function(err,result){
   if(!err){
     console.log(result);
   }else{
