@@ -15,3 +15,4 @@ in your _config.yml file, configure a deployer as below.
     &ensp;host: &ensp;"your ipfs node hostname, by default localhost, type string" <br>
     &ensp;port: &ensp;"your ipfs port, by default 5001, type integer" <br>
     &ensp;protocol: &ensp;"protocol, by default http, type string" <br>
+   
