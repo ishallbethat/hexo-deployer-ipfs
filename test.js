@@ -6,13 +6,7 @@ var data={
     protocol: 'http',
     type: 'ipfs'
 };
-deployer.addDir(data,function(err,result){
-  if(!err){
-    console.log(result);
-  }else{
-    console.error(err);
-  }
-});
+deployer(data);
 // deployer.addDir({type: "ipfs"},function(err,result){
 //   if(!err){
 //     console.log(result);
