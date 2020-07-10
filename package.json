@@ -1,28 +1,32 @@
 {
-  "name": "hexo-deployer-ipfs",
-  "version": "1.0.12",
-  "description": "",
+  "name": "hexo-deployer-ipfs-plus",
+  "version": "1.0.0",
+  "description": "Hexo 部署插件，发布网站到IPFS上面",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/IamGabrielWu/hexo-deployer-ipfs.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/IamGabrielWu/hexo-deployer-ipfs/issues"
-  },
+  "author": "runninggrass",
+  "license": "MIT",
   "dependencies": {
     "hexo-fs": "^0.2.2",
     "ipfs-api": "^19.0.0",
     "path": "^0.12.7"
   },
-  "homepage": "https://github.com/IamGabrielWu/hexo-deployer-ipfs#readme",
   "directories": {
     "lib": "lib"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RunningGrass/hexo-deployer-ipfs.git"
+  },
+  "keywords": [
+    "hexo",
+    "lpfs"
+  ],
+  "bugs": {
+    "url": "https://github.com/RunningGrass/hexo-deployer-ipfs/issues"
+  },
+  "homepage": "https://github.com/RunningGrass/hexo-deployer-ipfs#readme"
 }
