@@ -1,10 +1,11 @@
 var deployer = require('./lib/deployer.js');
 var data={
-    path: 'folder',
+    path: 'lib',
     port: 5001,
     host: 'localhost',
     protocol: 'http',
-    type: 'ipfs'
+    type: 'ipfs',
+    key: "self"
 };
 deployer(data);
 // deployer.addDir({type: "ipfs"},function(err,result){
