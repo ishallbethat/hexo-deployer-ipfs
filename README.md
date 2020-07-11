@@ -4,7 +4,7 @@
 Installation
 Using npm
 > cd 'your hexo project'
-> npm i --save hexo-deployer-ipfs
+> npm i --save hexo-deployer-ipfs-plus
 
 Configuration
 in your _config.yml file, configure a deployer as below.
